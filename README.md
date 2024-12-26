@@ -24,7 +24,7 @@ This repository contains scripts to monitor arbitrage opportunities between cryp
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/josephgithin/trader-scripts.git
-cd trader-scripts/arbitrage
+cd trader-scripts
 ```
 
 ### 2. Environment Variables
