@@ -1,0 +1,114 @@
+{
+  "pairs": {
+    "usd_pairs": {
+      "BTC-USD": ["XBT/USD", "BTC-USD"],
+      "ETH-USD": ["ETH/USD", "ETH-USD"],
+      "XRP-USD": ["XRP/USD", "XRP-USD"],
+      "LTC-USD": ["LTC/USD", "LTC-USD"],
+      "BCH-USD": ["BCH/USD", "BCH-USD"],
+      "ADA-USD": ["ADA/USD", "ADA-USD"],
+      "DOT-USD": ["DOT/USD", "DOT-USD"],
+      "LINK-USD": ["LINK/USD", "LINK-USD"],
+      "XLM-USD": ["XLM/USD", "XLM-USD"],
+      "UNI-USD": ["UNI/USD", "UNI-USD"],
+      "DOGE-USD": ["XDG/USD", "DOGE-USD"],
+      "MATIC-USD": ["MATIC/USD", "MATIC-USD"],
+      "SOL-USD": ["SOL/USD", "SOL-USD"],
+      "AVAX-USD": ["AVAX/USD", "AVAX-USD"],
+      "ALGO-USD": ["ALGO/USD", "ALGO-USD"],
+      "ATOM-USD": ["ATOM/USD", "ATOM-USD"],
+      "FIL-USD": ["FIL/USD", "FIL-USD"],
+      "NEAR-USD": ["NEAR/USD", "NEAR-USD"],
+      "APE-USD": ["APE/USD", "APE-USD"],
+      "AAVE-USD": ["AAVE/USD", "AAVE-USD"],
+      "CRV-USD": ["CRV/USD", "CRV-USD"],
+      "SNX-USD": ["SNX/USD", "SNX-USD"],
+      "1INCH-USD": ["1INCH/USD", "1INCH-USD"],
+      "COMP-USD": ["COMP/USD", "COMP-USD"],
+      "MKR-USD": ["MKR/USD", "MKR-USD"]
+    },
+    "eur_pairs": {
+      "BTC-EUR": ["XBT/EUR", "BTC-EUR"],
+      "ETH-EUR": ["ETH/EUR", "ETH-EUR"],
+      "XRP-EUR": ["XRP/EUR", "XRP-EUR"],
+      "LTC-EUR": ["LTC/EUR", "LTC-EUR"],
+      "DOT-EUR": ["DOT/EUR", "DOT-EUR"],
+      "LINK-EUR": ["LINK/EUR", "LINK-EUR"],
+      "ADA-EUR": ["ADA/EUR", "ADA-EUR"],
+      "SOL-EUR": ["SOL/EUR", "SOL-EUR"],
+      "MATIC-EUR": ["MATIC/EUR", "MATIC-EUR"],
+      "AVAX-EUR": ["AVAX/EUR", "AVAX-EUR"]
+    },
+    "gbp_pairs": {
+      "BTC-GBP": ["XBT/GBP", "BTC-GBP"],
+      "ETH-GBP": ["ETH/GBP", "ETH-GBP"],
+      "XRP-GBP": ["XRP/GBP", "XRP-GBP"],
+      "SOL-GBP": ["SOL/GBP", "SOL-GBP"],
+      "ADA-GBP": ["ADA/GBP", "ADA-GBP"],
+      "MATIC-GBP": ["MATIC/GBP", "MATIC-GBP"]
+    },
+    "btc_pairs": {
+      "ETH-BTC": ["ETH/XBT", "ETH-BTC"],
+      "XRP-BTC": ["XRP/XBT", "XRP-BTC"],
+      "LTC-BTC": ["LTC/XBT", "LTC-BTC"],
+      "ADA-BTC": ["ADA/XBT", "ADA-BTC"],
+      "DOT-BTC": ["DOT/XBT", "DOT-BTC"],
+      "LINK-BTC": ["LINK/XBT", "LINK-BTC"],
+      "XLM-BTC": ["XLM/XBT", "XLM-BTC"],
+      "DOGE-BTC": ["XDG/XBT", "DOGE-BTC"],
+      "SOL-BTC": ["SOL/XBT", "SOL-BTC"],
+      "MATIC-BTC": ["MATIC/XBT", "MATIC-BTC"],
+      "UNI-BTC": ["UNI/XBT", "UNI-BTC"],
+      "AVAX-BTC": ["AVAX/XBT", "AVAX-BTC"]
+    },
+    "eth_pairs": {
+      "LINK-ETH": ["LINK/ETH", "LINK-ETH"],
+      "UNI-ETH": ["UNI/ETH", "UNI-ETH"],
+      "MATIC-ETH": ["MATIC/ETH", "MATIC-ETH"],
+      "SOL-ETH": ["SOL/ETH", "SOL-ETH"],
+      "DOT-ETH": ["DOT/ETH", "DOT-ETH"],
+      "AAVE-ETH": ["AAVE/ETH", "AAVE-ETH"],
+      "CRV-ETH": ["CRV/ETH", "CRV-ETH"],
+      "SNX-ETH": ["SNX/ETH", "SNX-ETH"],
+      "1INCH-ETH": ["1INCH/ETH", "1INCH-ETH"],
+      "COMP-ETH": ["COMP/ETH", "COMP-ETH"]
+    },
+    "stablecoin_pairs": {
+      "USDT-USD": ["USDT/USD", "USDT-USD"],
+      "USDC-USD": ["USDC/USD", "USDC-USD"],
+      "DAI-USD": ["DAI/USD", "DAI-USD"],
+      "BUSD-USD": ["BUSD/USD", "BUSD-USD"],
+      "USDT-EUR": ["USDT/EUR", "USDT-EUR"],
+      "USDC-EUR": ["USDC/EUR", "USDC-EUR"],
+      "USDT-GBP": ["USDT/GBP", "USDT-GBP"]
+    }
+  },
+  "display": {
+    "pair_width": 15,
+    "price_width": 18,
+    "var_width": 10,
+    "time_width": 10,
+    "price_decimals": {
+      "default": 2,
+      "< 0.01": 8,
+      "< 1": 6,
+      "< 100": 4,
+      "≥ 100": 3
+    }
+  },
+  "colors": {
+    "variation_colors": {
+      "low": [1.0, 2],
+      "medium": [2.0, 3],
+      "high": [999999.0, 1]
+    }
+  },
+  "update": {
+    "refresh_rate": 1.0,
+    "batch_size": 100,
+    "max_pairs": 50,
+    "price_history_length": 10,
+    "partial_refresh": true,
+    "clear_screen_interval": 60
+  }
+}
