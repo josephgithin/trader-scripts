@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  exchange-monitor:
+    build: .
+    container_name: exchange-monitor
+    tty: true
+    stdin_open: true
+    restart: unless-stopped  # Restart on failure
+    environment:
+      - TERM=xterm-256color
+      - PYTHONUNBUFFERED=1
+    volumes:
+      # Mount the configuration file as read-only
+      - ./config.json:/app/config.json:ro
+      # Mount logs directory for persistent logs
+      - ./logs:/app/logs
+    command: python exchange_monitor.py
+
